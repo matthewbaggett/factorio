@@ -1,0 +1,12 @@
+version: '2'
+services:
+  bobs-and-angels:
+    build: .
+    image: gone/factorio:latest
+    volumes:
+    - ./saves:/factorio/saves
+    ports:
+    - 34197:34197/udp
+    - 27015:27015/tcp
+
+
