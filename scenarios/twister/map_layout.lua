@@ -10,15 +10,15 @@ require "locale.gen_shared.simplex_noise"
 --shapes--
 --require "locale.gen_shape.right"
 --require "locale.gen_shape.up"
---require "locale.gen_shape.spiral"
+require "locale.gen_shape.spiral"
 --require "locale.gen_shape.spiral_tri"
-require "locale.gen_shape.spiral2"
+--require "locale.gen_shape.spiral2"
 
 --terrain--
 --require "locale.gen_terrain.neko_bridged_rivers"
 
 --ores--
---require "locale.gen_ores.neko_crazy_ores"
+require "locale.gen_ores.neko_crazy_ores"
 --require "locale.gen_ores.mystery_ores"
 
 --TODO: IMPLEMENT BROKEN STYLES. DO NOT MERGE INTO MASTER BEFORE THIS IS
