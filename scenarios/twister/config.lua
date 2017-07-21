@@ -7,9 +7,9 @@ Event.register(-1, function()
     global.scenario.config.autolaunch_default = false -- default autolaunch option
     global.scenario.config.logistic_research_enabled = true -- if true then research for requesters and active providers will be enabled.
     global.scenario.config.mapsettings = global.scenario.config.mapsettings or {}
-    global.scenario.config.mapsettings.cross_width = 200 -- total width of cross
-    global.scenario.config.mapsettings.spiral_land_width = 70 -- width of land in spiral
-    global.scenario.config.mapsettings.spiral_water_width = 70 -- width of water in spiral
+    global.scenario.config.mapsettings.cross_width = 300 -- total width of cross
+    global.scenario.config.mapsettings.spiral_land_width = 90 -- width of land in spiral
+    global.scenario.config.mapsettings.spiral_water_width = 50 -- width of water in spiral
     global.scenario.custom_functions = {}
     global.map_layout_name = "Twister"
 end)

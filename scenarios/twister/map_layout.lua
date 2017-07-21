@@ -18,7 +18,7 @@ require "locale.gen_shape.spiral"
 --require "locale.gen_terrain.neko_bridged_rivers"
 
 --ores--
-require "locale.gen_ores.neko_crazy_ores"
+--require "locale.gen_ores.neko_crazy_ores"
 --require "locale.gen_ores.mystery_ores"
 
 --TODO: IMPLEMENT BROKEN STYLES. DO NOT MERGE INTO MASTER BEFORE THIS IS
