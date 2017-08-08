@@ -1,8 +1,11 @@
 version: '2'
 services:
   bobs-and-angels:
-    build: .
-    image: gone/factorio:latest
+    build: 
+      context: .
+    args:
+      VERSION: 0.15.32
+    image: gone/factorio:0.15.32
     volumes:
     - ./saves:/factorio/saves
     ports:
