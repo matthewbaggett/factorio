@@ -1,15 +1,22 @@
 version: '2'
 services:
-  bobs-and-angels:
+  factorio:
     build: 
       context: .
-    args:
-      VERSION: 0.15.32
+      args:
+        VERSION: 0.15.32
+        SHA1: 83a8a9487775d4136a3a95f1d99daa7b12ed3fc6
     image: gone/factorio:0.15.32
     volumes:
-    - ./saves:/factorio/saves
+     - ./saves:/factorio/saves
     ports:
-    - 34197:34197/udp
-    - 27015:27015/tcp
+     - 34197:34197/udp
+     - 27015:27015/tcp
+    environment:
+     - SERVER_USERNAME=changeme
+     - SERVER_TOKEN=Changeme
+     - SERVER_NAME=Vanilla
+     - SERVER_DESCRIPTION=Gone.io Server
+
 
 
